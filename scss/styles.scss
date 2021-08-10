@@ -1,3 +1,14 @@
+$colorFondos-articulos: #ffffff;
+$colorParrafos: #000000;
+$colorTitulo: #03045e;
+$fontSize-Parrafos: 1.6rem;
+$bordes-cajas: #0076A8;
+$h1: 3.5rem;
+$h2: 3.2rem;
+$h3: 2.8rem;
+$h4: 2.1rem;
+$h5: 1.7rem;
+
 *{
     margin: 0px;
     padding: 0px;  
@@ -12,17 +23,6 @@ html{
 body{
     background-color: #ffffff
 }
-
-$colorFondos-articulos: #ffffff;
-$colorParrafos: #000000;
-$colorTitulo: #03045e;
-$fontSize-Parrafos: 1.6rem;
-$bordes-cajas: #0076A8;
-$h1: 3.5rem;
-$h2: 3.2rem;
-$h3: 2.8rem;
-$h4: 2.1rem;
-$h5: 1.7rem;
 
 /* CODIGOS REUTILIZADOS */
 
@@ -447,10 +447,11 @@ $h5: 1.7rem;
     .cajas-opiniones{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
 
         .card{
+            max-width: 40rem;
             .card-header{
                 padding: 0rem;
                 .opiniones-img{
@@ -481,14 +482,6 @@ $h5: 1.7rem;
     }
 }
 
-@media (min-width: 1024px){
-    .seccionOpiniones{
-        .cajas-opiniones{
-            flex-direction: row;
-        }
-    }
-}
-
 /* >>> PAGINA 404 <<< */
 .mantenimiento{
     background-color: white;
@@ -497,8 +490,6 @@ $h5: 1.7rem;
     margin-bottom: 10rem;
 
     .mantenimiento__imagen{
-        width: 600px;
-        height: 400px;
         color: white;
     }
 
@@ -521,6 +512,15 @@ $h5: 1.7rem;
     }
     .mantenimiento__link:hover{
         color: antiquewhite;
+    }
+}
+
+@media (min-width: 768px){
+    .mantenimiento{
+        .mantenimiento__imagen{
+            width: 600px;
+            height: 400px;
+        }
     }
 }
 
@@ -613,7 +613,7 @@ $h5: 1.7rem;
 
 /* >>>>>> top.html <<<<<< */
 .seccionTabla{
-    margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 .tabla__h3{
@@ -629,9 +629,15 @@ $h5: 1.7rem;
     font-size: 1.6rem;
 }
 /* >>>>>> contacto.html <<<<<< */
+
+.seccionContacto{
+    padding: 1rem;
+}
+
 .formulario{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }
@@ -698,6 +704,10 @@ $h5: 1.7rem;
     }
 }
 @media (min-width: 600px){
+    .tamaño{
+        width: 80%;
+    }
+
     #nombre, #email, #asunto, #comentario{
         width: 44rem;
     }
@@ -717,7 +727,6 @@ $h5: 1.7rem;
 }
 @media (min-width: 1024px){
     #nombre, #email{
-        align-self: center;
         width: 29rem;
     }
     #asunto, #comentario{ 
