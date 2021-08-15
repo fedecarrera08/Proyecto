@@ -3,11 +3,11 @@ $colorParrafos: #000000;
 $colorTitulo: #03045e;
 $fontSize-Parrafos: 1.6rem;
 $bordes-cajas: #0076A8;
-$h1: 2.9rem;
-$h2: 2.6rem;
-$h3: 2.3rem;
+$h1: 2.6rem;
+$h2: 2.4rem;
+$h3: 2.2rem;
 $h4: 2rem;
-$h5: 1.7rem;
+$h5: 1.8rem;
 
 
 @media (min-width: 768px){
@@ -645,8 +645,10 @@ body{
     padding: 1rem;
 
     .articulosPrincipales{
+        border-color: #000000;
         .articulosPrincipales__h2{
             font-size: $h2;
+            margin: 1rem;
         }
         .formulario{
             display: flex;
