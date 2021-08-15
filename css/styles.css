@@ -13,16 +13,16 @@ body {
 
 /* CODIGOS REUTILIZADOS */
 .h1 {
-  font-size: 3.5rem; }
+  font-size: 2.9rem; }
 
 .h2 {
-  font-size: 3.2rem; }
+  font-size: 2.6rem; }
 
 .h3 {
-  font-size: 2.8rem; }
+  font-size: 2.3rem; }
 
 .h4 {
-  font-size: 2.1rem; }
+  font-size: 2rem; }
 
 .h5 {
   font-size: 1.7rem; }
@@ -55,7 +55,7 @@ body {
       .header .navbar .navegacion .posicion-navegacion {
         align-items: center; }
         .header .navbar .navegacion .posicion-navegacion .nav-link .h4 {
-          font-size: 2.1rem;
+          font-size: 2rem;
           margin: 1.5rem;
           border-bottom: .3rem solid white;
           transition: .3s; }
@@ -89,7 +89,7 @@ body {
   .caja .caja-criptomonedas {
     justify-content: space-around; }
   .caja .articulosPrincipales .articulosPrincipales__h2 {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     color: #03045e; }
   .caja .articulosPrincipales .articulosPrincipales__parrafos {
     color: #000000;
@@ -160,7 +160,7 @@ body {
         color: #2b2d42;
         margin: 0.1rem; }
       .seccionInformes .informes .articuloInformes .articuloInformes__h4 {
-        font-size: 2.1rem;
+        font-size: 2rem;
         font-weight: bolder; }
     .seccionInformes .informes .articuloInformes--hover:hover {
       transform: scale(1.01, 1.01);
@@ -182,7 +182,7 @@ body {
     grid-area: titulo;
     border-bottom: .3rem solid #000000; }
     .articulo .titulo-articulo .titulo-articulo__h2 {
-      font-size: 3.2rem;
+      font-size: 2.6rem;
       margin: 1rem;
       font-weight: bolder; }
   .articulo .image-principal {
@@ -195,11 +195,11 @@ body {
   .articulo .texto-articulo {
     grid-area: parrafos; }
     .articulo .texto-articulo .texto-articulo__h3 {
-      font-size: 2.8rem;
+      font-size: 2.3rem;
       margin: 1rem;
       font-weight: bolder; }
     .articulo .texto-articulo .texto-articulo__h4 {
-      font-size: 2.1rem;
+      font-size: 2rem;
       margin: 1rem;
       font-weight: bolder; }
     .articulo .texto-articulo .texto-articulo__parrafos {
@@ -247,7 +247,7 @@ body {
           color: #2b2d42;
           margin: 0.1rem; }
         .articulo .sub-seccion .aside-articulo .articuloInformes .articuloInformes__h4 {
-          font-size: 2.1rem;
+          font-size: 2rem;
           font-weight: bolder; }
       .articulo .sub-seccion .aside-articulo .articuloInformes--hover:hover {
         transform: scale(1.01, 1.01);
@@ -381,7 +381,7 @@ body {
         width: 75px;
         height: 75px; }
     .seccionCrypto .cryptos .cryptos__h3 {
-      font-size: 2.8rem; }
+      font-size: 2.3rem; }
     .seccionCrypto .cryptos .cryptos__parrafos {
       color: #000000;
       font-size: 1.6rem;
@@ -402,10 +402,10 @@ body {
   .articuloGeneracion .viñetas {
     list-style-image: url(../images/item.svg); }
   .articuloGeneracion .articuloGeneracion__h2 {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     margin: 1rem; }
   .articuloGeneracion .articuloGeneracion__h3 {
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     margin: 1rem; }
   .articuloGeneracion .articuloGeneracion__parrafos {
     color: #000000;
@@ -418,7 +418,7 @@ body {
 .seccionTabla {
   padding: 1rem; }
   .seccionTabla .articulosPrincipales .articulosPrincipales__h3 {
-    font-size: 2.8rem; }
+    font-size: 2.3rem; }
   .seccionTabla .articulosPrincipales .tabla tr {
     font-size: 1.6rem; }
   .seccionTabla .articulosPrincipales .logotipo-top {
@@ -429,7 +429,7 @@ body {
 .seccionContacto {
   padding: 1rem; }
   .seccionContacto .articulosPrincipales .articulosPrincipales__h2 {
-    font-size: 3.2rem; }
+    font-size: 2.6rem; }
   .seccionContacto .articulosPrincipales .formulario {
     display: flex;
     flex-direction: column;
@@ -540,7 +540,7 @@ body {
     border-left: 2px solid #000000;
     padding: .8rem; }
     .footer .creador .creador__h4 {
-      font-size: 2.1rem;
+      font-size: 2rem;
       padding: 0.2rem; }
 
 /* ALTO, DIRECCIÓN Y ESTILO */

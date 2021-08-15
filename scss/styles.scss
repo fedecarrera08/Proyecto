@@ -3,11 +3,20 @@ $colorParrafos: #000000;
 $colorTitulo: #03045e;
 $fontSize-Parrafos: 1.6rem;
 $bordes-cajas: #0076A8;
-$h1: 3.5rem;
-$h2: 3.2rem;
-$h3: 2.8rem;
-$h4: 2.1rem;
+$h1: 2.9rem;
+$h2: 2.6rem;
+$h3: 2.3rem;
+$h4: 2rem;
 $h5: 1.7rem;
+
+
+@media (min-width: 768px){
+    $h1: 3.5rem;
+    $h2: 3.2rem;
+    $h3: 2.8rem;
+    $h4: 2.1rem;
+    $h5: 1.7rem;
+}
 
 *{
     margin: 0px;
