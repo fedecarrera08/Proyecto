@@ -9,15 +9,6 @@ $h3: 2.2rem;
 $h4: 2rem;
 $h5: 1.8rem;
 
-
-@media (min-width: 768px){
-    $h1: 3.5rem;
-    $h2: 3.2rem;
-    $h3: 2.8rem;
-    $h4: 2.1rem;
-    $h5: 1.7rem;
-}
-
 *{
     margin: 0px;
     padding: 0px;  
@@ -49,6 +40,28 @@ body{
 }
 .h5{
     font-size: $h5;
+}
+
+/* fontsize para escritorios */
+
+@media (min-width: 768px){
+    $suma: 0.6rem;
+
+    .h1{
+        font-size: $h1+$suma;
+    }
+    .h2{
+        font-size: $h2+$suma;
+    }
+    .h3{
+        font-size: $h3+$suma;
+    }
+    .h4{
+        font-size: $h4+$suma;
+    }
+    .h5{
+        font-size: $h5+$suma;
+    }
 }
 
 .parrafos{
@@ -656,43 +669,73 @@ body{
             justify-content: space-around;
             align-items: center;
             text-align: center;
+
+            #nombre{
+                width: 24rem;
+                height: 3.4rem;
+                border: .1rem solid #808080;
+                border-radius: 1rem;
+                padding: 1rem;
+                margin: 1rem;
+                font-size: 1.4rem;
+            }
+            #email{
+                width: 24rem;
+                height: 3.4rem;
+                border: .1rem solid #808080;
+                border-radius: 1rem;
+                padding: 1rem;
+                margin: 1rem;
+                font-size: 1.4rem;
+            }
+            #asunto{
+                width: 24rem;
+                height: 3.4rem;
+                border: .1rem solid #808080;
+                border-radius: 1rem;
+                padding: 1rem;
+                margin: 1rem;
+                font-size: 1.4rem;
+            }
+            #comentario{
+                width: 24rem;
+                height: 25.4rem;
+                border: .1rem solid #808080;
+                border-radius: 1rem;
+                padding: 1rem;
+                margin: 1rem;
+                font-size: 1.4rem;
+            }
+            @media (min-width: 480px){
+                #nombre{
+                    width: 45rem;
+                }
+                #email{
+                    width: 45rem;
+                }
+                #asunto{
+                    width: 45rem;
+                }
+               #comentario{
+                    width: 45rem;
+                }
+            }
+            @media (min-width: 600px){
+                #nombre{
+                    width: 44rem;
+                }
+                #email{
+                    width: 44rem;
+                }
+                #asunto{
+                    width: 44rem;
+                }
+                #comentario{
+                    width: 44rem;
+                }
+            }
         }
-        #nombre{
-            width: 29rem;
-            height: 3.4rem;
-            border: .1rem solid #808080;
-            border-radius: 1rem;
-            padding: 1rem;
-            margin: 1rem;
-            font-size: 1.4rem;
-        }
-        #email{
-            width: 29rem;
-            height: 3.4rem;
-            border: .1rem solid #808080;
-            border-radius: 1rem;
-            padding: 1rem;
-            margin: 1rem;
-            font-size: 1.4rem;
-        }
-        #asunto{
-            width: 29rem;
-            height: 3.4rem;
-            border: .1rem solid #808080;
-            border-radius: 1rem;
-            padding: 1rem;
-            margin: 1rem;
-            font-size: 1.4rem;
-        }
-        #comentario{
-            width: 29rem;
-            height: 25.4rem;
-            border: .1rem solid #808080;
-            border-radius: 1rem;
-            padding: 1rem;
-            margin: 1rem;
-            font-size: 1.4rem;
-        }
+
         .enviar{
             font-size: 1.6rem;
             width: 14rem;
@@ -707,61 +750,70 @@ body{
             width: 100%;
             text-align: center;
         }
-
         .informacion__parrafos{
             color: $colorParrafos;
-            font-size: $fontSize-Parrafos;
+            font-size: 1rem;
             padding: 1.5rem;
-        }
-
-        @media (min-width: 480px){
-            #nombre, #email, #asunto, #comentario{
-                width: 45rem;
-            }
-        }
-        @media (min-width: 600px){
-            .tamaño{
-                width: 80%;
-            }
-
-            #nombre, #email, #asunto, #comentario{
-                width: 44rem;
-            }
         }
         @media (min-width: 768px){
             .formulario{
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content: center;
-            }
-            #nombre, #email{
-                width: 35rem;
-            }
-            #asunto, #comentario{
-                width: 72rem;
+
+                #nombre{
+                    width: 33rem;
+                }   
+                #email{
+                    width: 33rem;
+                }
+                #asunto{
+                    width: 68rem;
+                }
+                #comentario{
+                    width: 68rem;
+                }
             }
         }
         @media (min-width: 1024px){
-            #nombre, #email{
-                width: 29rem;
+            .formulario{
+                #nombre{
+                    width: 29rem;
+                }
+                #email{
+                    width: 29rem;
+                }
+                #asunto{ 
+                    align-self: center;
+                    width: 60rem;   
+                }
+                #comentario{
+                    align-self: center;
+                    width: 60rem;
+                }
             }
-            #asunto, #comentario{ 
-                align-self: center;
-                width: 60rem;   
-            }
-            .tamaño{
-                width: 700px;
+            .informacion{
+                .informacion__parrafos{
+                    font-size: $fontSize-Parrafos;
+                }
             }
         }
         @media (min-width: 1200px){
-            #nombre, #email{
-                width: 36rem;
-            }
-            #asunto, #comentario{ 
-                width: 74rem;   
-            }
-            .tamaño{
-                width: 800px;
+            .formulario{
+                #nombre{
+                    width: 36rem;
+                }
+
+                #email{
+                    width: 36rem;
+                }
+
+                #asunto{ 
+                    width: 74rem;   
+                }
+                #comentario{
+                    width: 74rem;
+                }
             }
         }
     }

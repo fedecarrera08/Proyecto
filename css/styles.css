@@ -27,6 +27,19 @@ body {
 .h5 {
   font-size: 1.8rem; }
 
+/* fontsize para escritorios */
+@media (min-width: 768px) {
+  .h1 {
+    font-size: 3.2rem; }
+  .h2 {
+    font-size: 3rem; }
+  .h3 {
+    font-size: 2.8rem; }
+  .h4 {
+    font-size: 2.6rem; }
+  .h5 {
+    font-size: 2.4rem; } }
+
 .parrafos {
   color: #000000;
   font-size: 1.6rem;
@@ -439,38 +452,56 @@ body {
       justify-content: space-around;
       align-items: center;
       text-align: center; }
-    .seccionContacto .articulosPrincipales #nombre {
-      width: 29rem;
-      height: 3.4rem;
-      border: .1rem solid #808080;
-      border-radius: 1rem;
-      padding: 1rem;
-      margin: 1rem;
-      font-size: 1.4rem; }
-    .seccionContacto .articulosPrincipales #email {
-      width: 29rem;
-      height: 3.4rem;
-      border: .1rem solid #808080;
-      border-radius: 1rem;
-      padding: 1rem;
-      margin: 1rem;
-      font-size: 1.4rem; }
-    .seccionContacto .articulosPrincipales #asunto {
-      width: 29rem;
-      height: 3.4rem;
-      border: .1rem solid #808080;
-      border-radius: 1rem;
-      padding: 1rem;
-      margin: 1rem;
-      font-size: 1.4rem; }
-    .seccionContacto .articulosPrincipales #comentario {
-      width: 29rem;
-      height: 25.4rem;
-      border: .1rem solid #808080;
-      border-radius: 1rem;
-      padding: 1rem;
-      margin: 1rem;
-      font-size: 1.4rem; }
+      .seccionContacto .articulosPrincipales .formulario #nombre {
+        width: 24rem;
+        height: 3.4rem;
+        border: .1rem solid #808080;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 1.4rem; }
+      .seccionContacto .articulosPrincipales .formulario #email {
+        width: 24rem;
+        height: 3.4rem;
+        border: .1rem solid #808080;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 1.4rem; }
+      .seccionContacto .articulosPrincipales .formulario #asunto {
+        width: 24rem;
+        height: 3.4rem;
+        border: .1rem solid #808080;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 1.4rem; }
+      .seccionContacto .articulosPrincipales .formulario #comentario {
+        width: 24rem;
+        height: 25.4rem;
+        border: .1rem solid #808080;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 1.4rem; }
+      @media (min-width: 480px) {
+        .seccionContacto .articulosPrincipales .formulario #nombre {
+          width: 45rem; }
+        .seccionContacto .articulosPrincipales .formulario #email {
+          width: 45rem; }
+        .seccionContacto .articulosPrincipales .formulario #asunto {
+          width: 45rem; }
+        .seccionContacto .articulosPrincipales .formulario #comentario {
+          width: 45rem; } }
+      @media (min-width: 600px) {
+        .seccionContacto .articulosPrincipales .formulario #nombre {
+          width: 44rem; }
+        .seccionContacto .articulosPrincipales .formulario #email {
+          width: 44rem; }
+        .seccionContacto .articulosPrincipales .formulario #asunto {
+          width: 44rem; }
+        .seccionContacto .articulosPrincipales .formulario #comentario {
+          width: 44rem; } }
     .seccionContacto .articulosPrincipales .enviar {
       font-size: 1.6rem;
       width: 14rem;
@@ -484,40 +515,43 @@ body {
       text-align: center; }
     .seccionContacto .articulosPrincipales .informacion__parrafos {
       color: #000000;
-      font-size: 1.6rem;
+      font-size: 1rem;
       padding: 1.5rem; }
-    @media (min-width: 480px) {
-      .seccionContacto .articulosPrincipales #nombre, .seccionContacto .articulosPrincipales #email, .seccionContacto .articulosPrincipales #asunto, .seccionContacto .articulosPrincipales #comentario {
-        width: 45rem; } }
-    @media (min-width: 600px) {
-      .seccionContacto .articulosPrincipales .tamaño {
-        width: 80%; }
-      .seccionContacto .articulosPrincipales #nombre, .seccionContacto .articulosPrincipales #email, .seccionContacto .articulosPrincipales #asunto, .seccionContacto .articulosPrincipales #comentario {
-        width: 44rem; } }
     @media (min-width: 768px) {
       .seccionContacto .articulosPrincipales .formulario {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center; }
-      .seccionContacto .articulosPrincipales #nombre, .seccionContacto .articulosPrincipales #email {
-        width: 35rem; }
-      .seccionContacto .articulosPrincipales #asunto, .seccionContacto .articulosPrincipales #comentario {
-        width: 72rem; } }
+        .seccionContacto .articulosPrincipales .formulario #nombre {
+          width: 33rem; }
+        .seccionContacto .articulosPrincipales .formulario #email {
+          width: 33rem; }
+        .seccionContacto .articulosPrincipales .formulario #asunto {
+          width: 68rem; }
+        .seccionContacto .articulosPrincipales .formulario #comentario {
+          width: 68rem; } }
     @media (min-width: 1024px) {
-      .seccionContacto .articulosPrincipales #nombre, .seccionContacto .articulosPrincipales #email {
+      .seccionContacto .articulosPrincipales .formulario #nombre {
         width: 29rem; }
-      .seccionContacto .articulosPrincipales #asunto, .seccionContacto .articulosPrincipales #comentario {
+      .seccionContacto .articulosPrincipales .formulario #email {
+        width: 29rem; }
+      .seccionContacto .articulosPrincipales .formulario #asunto {
         align-self: center;
         width: 60rem; }
-      .seccionContacto .articulosPrincipales .tamaño {
-        width: 700px; } }
+      .seccionContacto .articulosPrincipales .formulario #comentario {
+        align-self: center;
+        width: 60rem; }
+      .seccionContacto .articulosPrincipales .informacion .informacion__parrafos {
+        font-size: 1.6rem; } }
     @media (min-width: 1200px) {
-      .seccionContacto .articulosPrincipales #nombre, .seccionContacto .articulosPrincipales #email {
+      .seccionContacto .articulosPrincipales .formulario #nombre {
         width: 36rem; }
-      .seccionContacto .articulosPrincipales #asunto, .seccionContacto .articulosPrincipales #comentario {
+      .seccionContacto .articulosPrincipales .formulario #email {
+        width: 36rem; }
+      .seccionContacto .articulosPrincipales .formulario #asunto {
         width: 74rem; }
-      .seccionContacto .articulosPrincipales .tamaño {
-        width: 800px; } }
+      .seccionContacto .articulosPrincipales .formulario #comentario {
+        width: 74rem; } }
 
 /* >>> FOOTER <<< */
 .footer {
