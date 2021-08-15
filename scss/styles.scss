@@ -549,11 +549,11 @@ body{
     text-align: center;
     border: .3rem solid #003049;
     grid-template-columns: repeat(auto-fill, 225px); 
-    grid-template-rows: repeat(auto-fill, 270rem);
+    grid-template-rows: repeat(auto-fill, 270px);
 
     .cryptos{
         width: auto;
-        height: 27rem;
+        height: 270px;
         border: .1rem solid #ffffff;
         transition: .3s;
         transition-timing-function: ease;
