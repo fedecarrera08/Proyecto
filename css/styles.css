@@ -227,7 +227,7 @@ body {
       height: 144px;
       border: .3rem solid black; }
     .articulo .texto-articulo .texto-articulo__lista-ordenada {
-      padding: 2rem;
+      padding: 3rem;
       list-style-image: url(../images/item.svg);
       text-align: left; }
     .articulo .texto-articulo .texto-articulo__lista-desordenada {
@@ -486,13 +486,13 @@ body {
         font-size: 1.4rem; }
       @media (min-width: 480px) {
         .seccionContacto .articulosPrincipales .formulario #nombre {
-          width: 45rem; }
+          width: 39rem; }
         .seccionContacto .articulosPrincipales .formulario #email {
-          width: 45rem; }
+          width: 39rem; }
         .seccionContacto .articulosPrincipales .formulario #asunto {
-          width: 45rem; }
+          width: 39rem; }
         .seccionContacto .articulosPrincipales .formulario #comentario {
-          width: 45rem; } }
+          width: 39rem; } }
       @media (min-width: 600px) {
         .seccionContacto .articulosPrincipales .formulario #nombre {
           width: 44rem; }

@@ -333,7 +333,7 @@ body{
         }
 
         .texto-articulo__lista-ordenada{
-            padding: 2rem;
+            padding: 3rem;
             list-style-image: url(../images/item.svg);
             text-align: left;
         }
@@ -708,16 +708,16 @@ body{
             }
             @media (min-width: 480px){
                 #nombre{
-                    width: 45rem;
+                    width: 39rem;
                 }
                 #email{
-                    width: 45rem;
+                    width: 39rem;
                 }
                 #asunto{
-                    width: 45rem;
+                    width: 39rem;
                 }
                #comentario{
-                    width: 45rem;
+                    width: 39rem;
                 }
             }
             @media (min-width: 600px){
