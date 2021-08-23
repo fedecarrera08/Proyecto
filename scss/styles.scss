@@ -659,6 +659,15 @@ body{
 
     .articulosPrincipales{
         border-color: #000000;
+
+        .ubicacion{
+            width: auto;
+            height: 30rem;
+
+            iframe{
+                border-radius: .8rem;
+            }
+        }
         .articulosPrincipales__h2{
             font-size: $h2;
             margin: 1rem;
@@ -740,21 +749,9 @@ body{
             font-size: 1.6rem;
             width: 14rem;
             height: 3.2rem;
+            margin-bottom: 1rem;
         }
 
-        .informacion{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            text-align: center;
-        }
-        .informacion__parrafos{
-            color: $colorParrafos;
-            font-size: 1rem;
-            padding: 1.5rem;
-        }
         @media (min-width: 768px){
             .formulario{
                 flex-direction: row;
@@ -790,11 +787,6 @@ body{
                 #comentario{
                     align-self: center;
                     width: 60rem;
-                }
-            }
-            .informacion{
-                .informacion__parrafos{
-                    font-size: $fontSize-Parrafos;
                 }
             }
         }
@@ -838,6 +830,22 @@ body{
         height: auto;
         padding: 1rem;
         list-style-type: none;
+
+        .redes__lista{
+            .redes-iconos-twitter svg:hover{
+                stroke: rgba(29,161,242,1.00);
+                fill: rgba(29,161,242,1.00) ;
+            }
+
+            .redes-iconos-facebook svg:hover{
+                stroke: #1877f2;
+                fill: #1877f2;
+            }
+
+            .redes-iconos-instagram svg:hover{
+                stroke: orangered;
+            }
+        }
     }
     .creador{
         flex: 1;
