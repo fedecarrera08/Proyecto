@@ -457,6 +457,9 @@ body {
       justify-content: space-around;
       align-items: center;
       text-align: center; }
+      .seccionContacto .articulosPrincipales .formulario #nombre:focus {
+        border: .3rem solid blue;
+        border-radius: 10rem; }
       .seccionContacto .articulosPrincipales .formulario #nombre {
         width: 24rem;
         height: 3.4rem;
@@ -571,7 +574,8 @@ body {
       stroke: #1877f2;
       fill: #1877f2; }
     .footer .redes .redes__lista .redes-iconos-instagram svg:hover {
-      stroke: orangered; }
+      stroke: black;
+      fill: #dc3545; }
   .footer .creador {
     flex: 1;
     text-align: center;
