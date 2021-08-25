@@ -112,6 +112,13 @@ body{
     }
 }
 
+/* Header responsive para TOP.html*/
+@media (max-width:480px){
+    .header-size{
+        min-width: 480px;
+    }
+}
+
 /* >>>>>> INICIO DE CONTENIDO index.html <<<<<< */
 
 /* CAROUSEL */
@@ -636,6 +643,11 @@ body{
 /* >>>>>> top.html <<<<<< */
 .seccionTabla{
     padding: 1rem;
+    min-width: 480px;
+
+    .tablas-informacion{
+        padding: 2.5rem;
+    }
 
     .articulosPrincipales{
         .articulosPrincipales__h3{
@@ -657,19 +669,9 @@ body{
 .seccionContacto{
     padding: 1rem;
 
-
-
     .articulosPrincipales{
-        border-color: #000000;
-
-        .ubicacion{
-            width: auto;
-            height: 30rem;
-
-            iframe{
-                border-radius: .8rem;
-            }
-        }
+        border: 0rem;
+    
         .articulosPrincipales__h2{
             font-size: $h2;
             margin: 1rem;
@@ -682,11 +684,6 @@ body{
             align-items: center;
             text-align: center;
 
-            #nombre:focus{
-                border: .3rem solid blue;
-                border-radius: 10rem;
-            }
-
             #nombre{
                 width: 24rem;
                 height: 3.4rem;
@@ -695,6 +692,10 @@ body{
                 padding: 1rem;
                 margin: 1rem;
                 font-size: 1.4rem;
+            }
+
+            #nombre:focus{
+                border-radius: 10rem;
             }
             #email{
                 width: 24rem;
@@ -816,6 +817,47 @@ body{
                 }
             }
         }
+        .ubicacion{
+            width: auto;
+            height: 30rem;
+                
+            iframe{
+                border-radius: .8rem;
+            }
+        }
+    }
+
+    .informacionContacto{
+        padding: 3rem;
+        border-top: .3rem solid #000000;
+
+        .informacionContacto__h2{
+            font-size: $h2;
+        }
+
+        .contacto-creador{
+            padding: 3rem;
+            display: inline-block;
+
+            .contacto-creador__h3{
+                font-weight: bolder;
+                border-left: .3rem solid #000000;
+                padding-left: 1rem;
+                font-size: $h3;
+                display: inline-block;
+            }
+
+            .contacto-creador__h4{
+                display: inline-block;
+                font-size: $h4;
+                padding: .5rem;
+                margin: .5rem;
+            }
+        }
+    }
+
+    .articulosPrincipales-borde{
+        border: .3rem solid #000000; 
     }
 }
 
@@ -868,6 +910,17 @@ body{
     }
 }
 
+/* fontsize para dispositivo galaxy fold */
+@media (min-width: 280px){
+    .footer{
+        .creador{
+            .creador__h4{
+                font-size: $h5;
+            }
+        }
+    }
+}
+
 /* ALTO, DIRECCIÓN Y ESTILO */
 @media (min-width: 480px){
     .footer{
@@ -891,3 +944,9 @@ body{
     }
 }
 
+/* Footer responsive para TOP.html*/
+@media (max-width: 480px){
+    .footer-size{
+        min-width: 480px;
+    }
+}

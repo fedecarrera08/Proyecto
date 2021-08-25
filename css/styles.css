@@ -75,6 +75,11 @@ body {
         .header .navbar .navegacion .posicion-navegacion .nav-link .h4:hover {
           border-bottom: .3rem solid #000000; }
 
+/* Header responsive para TOP.html*/
+@media (max-width: 480px) {
+  .header-size {
+    min-width: 480px; } }
+
 /* >>>>>> INICIO DE CONTENIDO index.html <<<<<< */
 /* CAROUSEL */
 .img-tamaños {
@@ -429,7 +434,10 @@ body {
 
 /* >>>>>> top.html <<<<<< */
 .seccionTabla {
-  padding: 1rem; }
+  padding: 1rem;
+  min-width: 480px; }
+  .seccionTabla .tablas-informacion {
+    padding: 2.5rem; }
   .seccionTabla .articulosPrincipales .articulosPrincipales__h3 {
     font-size: 2.2rem; }
   .seccionTabla .articulosPrincipales .tabla tr {
@@ -442,12 +450,7 @@ body {
 .seccionContacto {
   padding: 1rem; }
   .seccionContacto .articulosPrincipales {
-    border-color: #000000; }
-    .seccionContacto .articulosPrincipales .ubicacion {
-      width: auto;
-      height: 30rem; }
-      .seccionContacto .articulosPrincipales .ubicacion iframe {
-        border-radius: .8rem; }
+    border: 0rem; }
     .seccionContacto .articulosPrincipales .articulosPrincipales__h2 {
       font-size: 2.4rem;
       margin: 1rem; }
@@ -457,9 +460,6 @@ body {
       justify-content: space-around;
       align-items: center;
       text-align: center; }
-      .seccionContacto .articulosPrincipales .formulario #nombre:focus {
-        border: .3rem solid blue;
-        border-radius: 10rem; }
       .seccionContacto .articulosPrincipales .formulario #nombre {
         width: 24rem;
         height: 3.4rem;
@@ -468,6 +468,8 @@ body {
         padding: 1rem;
         margin: 1rem;
         font-size: 1.4rem; }
+      .seccionContacto .articulosPrincipales .formulario #nombre:focus {
+        border-radius: 10rem; }
       .seccionContacto .articulosPrincipales .formulario #email {
         width: 24rem;
         height: 3.4rem;
@@ -548,6 +550,32 @@ body {
         width: 74rem; }
       .seccionContacto .articulosPrincipales .formulario #comentario {
         width: 74rem; } }
+    .seccionContacto .articulosPrincipales .ubicacion {
+      width: auto;
+      height: 30rem; }
+      .seccionContacto .articulosPrincipales .ubicacion iframe {
+        border-radius: .8rem; }
+  .seccionContacto .informacionContacto {
+    padding: 3rem;
+    border-top: .3rem solid #000000; }
+    .seccionContacto .informacionContacto .informacionContacto__h2 {
+      font-size: 2.4rem; }
+    .seccionContacto .informacionContacto .contacto-creador {
+      padding: 3rem;
+      display: inline-block; }
+      .seccionContacto .informacionContacto .contacto-creador .contacto-creador__h3 {
+        font-weight: bolder;
+        border-left: .3rem solid #000000;
+        padding-left: 1rem;
+        font-size: 2.2rem;
+        display: inline-block; }
+      .seccionContacto .informacionContacto .contacto-creador .contacto-creador__h4 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: .5rem;
+        margin: .5rem; }
+  .seccionContacto .articulosPrincipales-borde {
+    border: .3rem solid #000000; }
 
 /* >>> FOOTER <<< */
 .footer {
@@ -585,6 +613,11 @@ body {
       font-size: 2rem;
       padding: 0.2rem; }
 
+/* fontsize para dispositivo galaxy fold */
+@media (min-width: 280px) {
+  .footer .creador .creador__h4 {
+    font-size: 1.8rem; } }
+
 /* ALTO, DIRECCIÓN Y ESTILO */
 @media (min-width: 480px) {
   .footer {
@@ -600,3 +633,8 @@ body {
     .footer .creador {
       padding: 1rem;
       margin: 1rem; } }
+
+/* Footer responsive para TOP.html*/
+@media (max-width: 480px) {
+  .footer-size {
+    min-width: 480px; } }
