@@ -463,34 +463,28 @@ body {
       .seccionContacto .articulosPrincipales .formulario #nombre {
         width: 24rem;
         height: 3.4rem;
-        border: .1rem solid #808080;
-        border-radius: 1rem;
         padding: 1rem;
         margin: 1rem;
         font-size: 1.4rem; }
-      .seccionContacto .articulosPrincipales .formulario #nombre:focus {
-        border-radius: 10rem; }
+      .seccionContacto .articulosPrincipales .formulario input:focus {
+        outline-color: #0076A8; }
+      .seccionContacto .articulosPrincipales .formulario textarea:focus {
+        outline-color: #0076A8; }
       .seccionContacto .articulosPrincipales .formulario #email {
         width: 24rem;
         height: 3.4rem;
-        border: .1rem solid #808080;
-        border-radius: 1rem;
         padding: 1rem;
         margin: 1rem;
         font-size: 1.4rem; }
       .seccionContacto .articulosPrincipales .formulario #asunto {
         width: 24rem;
         height: 3.4rem;
-        border: .1rem solid #808080;
-        border-radius: 1rem;
         padding: 1rem;
         margin: 1rem;
         font-size: 1.4rem; }
       .seccionContacto .articulosPrincipales .formulario #comentario {
         width: 24rem;
         height: 25.4rem;
-        border: .1rem solid #808080;
-        border-radius: 1rem;
         padding: 1rem;
         margin: 1rem;
         font-size: 1.4rem; }

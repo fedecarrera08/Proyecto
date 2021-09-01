@@ -687,21 +687,20 @@ body{
             #nombre{
                 width: 24rem;
                 height: 3.4rem;
-                border: .1rem solid #808080;
-                border-radius: 1rem;
                 padding: 1rem;
                 margin: 1rem;
                 font-size: 1.4rem;
             }
 
-            #nombre:focus{
-                border-radius: 10rem;
+            input:focus{
+                outline-color: $bordes-cajas;
+            }
+            textarea:focus{
+                outline-color: $bordes-cajas;
             }
             #email{
                 width: 24rem;
                 height: 3.4rem;
-                border: .1rem solid #808080;
-                border-radius: 1rem;
                 padding: 1rem;
                 margin: 1rem;
                 font-size: 1.4rem;
@@ -709,8 +708,6 @@ body{
             #asunto{
                 width: 24rem;
                 height: 3.4rem;
-                border: .1rem solid #808080;
-                border-radius: 1rem;
                 padding: 1rem;
                 margin: 1rem;
                 font-size: 1.4rem;
@@ -718,8 +715,6 @@ body{
             #comentario{
                 width: 24rem;
                 height: 25.4rem;
-                border: .1rem solid #808080;
-                border-radius: 1rem;
                 padding: 1rem;
                 margin: 1rem;
                 font-size: 1.4rem;
